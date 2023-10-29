@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arduino/ESP32 Workshop</title>
+    <!-- Add your CSS and JavaScript links here -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="top-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-sm-5 header-logo">
+                    <br>
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="" class="img-responsive logo">
+                    </a>
+                </div>
+                <div class="col-6 col-sm-7">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="blog.html">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html#service">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html#team">Team</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html#about">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html#contact">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End of Header Section -->
+
+    <!-- Slider Section -->
+    <section class="slider" id="home">
+        <div class="container-fluid">
+            <div class="row">
+                <div id="carouselHacked" class="carousel slide carousel-fade" data-ride="carousel">
+                    <div class="header-backup"></div>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img src="img/slide-one.jpg" alt="">
+                            <div class="carousel-caption">
+                                <button>Milindweb</button>
+                            </div>
+                        </div>
+                        <!-- Add more carousel items here -->
+                    </div>
+                    <!-- Controls -->
+                    <a class="carousel-control-prev" href="#carouselHacked" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselHacked" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Slider Section -->
+
+    <!-- Post Content Section -->
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+                    <table class="table table-bordered">
+                        <tr>
+                            <th><h1>Section</h1></th>
+                            <th><h1>Details</h1></th>
+                        </tr>
+                        <tr>
+                            <td>Workshop Title:</td>
+                            <td>"TechXplor - Unleash Your Inner Engineer!"</td>
+                        </tr>
+                        <tr>
+                            <td>Organizer:</td>
+                            <td>
+                                <p>Milind Khandare</p>
+                                <p>Dip Electrical, BE Instrumentation Engineer</p>
+                                <p>7+ years of Industrial experience</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Who Can Join:</td>
+                            <td>
+                                <ul>
+                                    <li>7th to 12th-grade students</li>
+                                    <li>Science & Tech students</li>
+                                    <li>Tech Enthusiasts of All Ages</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Requirements:</td>
+                            <td>
+                                <ul>
+                                    <li>Android Mobile/Laptop</li>
+                                    <li>Arduino/ESP32 Kit (we will provide it FREE)</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Topics Covered in Workshop (Level 1):</td>
+                            <td>
+                                <ol>
+                                    <li>Introduction to Arduino/ESP32</li>
+                                    <li>Basic Electrical/Electronics</li>
+                                    <li>Sensors & Components</li>
+                                    <li>Hardware Connection & Wiring</li>
+                                    <li>Software Setup & Installation</li>
+                                    <li>Introduction to Programming</li>
+                                    <li>Writing Your First Program</li>
+                                    <li>Error Handling and Debugging</li>
+                                    <li>Uploading Programs</li>
+                                    <li>Practical Testing</li>
+                                </ol>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>4 Hands-On DIY Projects:</td>
+                            <td>
+                                <ol>
+                                    <li>Traffic Light Control</li>
+                                    <li>Automatic Device Control</li>
+                                    <li>Simple Robot Car</li>
+                                    <li>Automatic Gate Open/Close</li>
+                                </ol>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Workshop Kit Details:</td>
+                            <td>
+                                <ul>
+                                    <li>ESP32 Dev Kit</li>
+                                    <li>3.7V Batteries (2)</li>
+                                    <li>Battery Holder</li>
+                                    <li>LEDs</li>
+                                    <li>Resistors</li>
+                                    <li>Breadboard</li>
+                                    <li>Male/Female Connectors</li>
+                                    <li>5V Relay</li>
+                                    <li>BO Motor</li>
+                                    <li>Servo Motor</li>
+                                    <li>IR Sensors</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Key Features:</td>
+                            <td>
+                                <ul>
+                                    <li>Hands-on Learning</li>
+                                    <li>Expert Guidance</li>
+                                    <li>Practical Projects</li>
+                                    <li>Build Real Devices</li>
+                                    <li>Interact with Like-Minded Individuals</li>
+                                    <li>Certificate of Completion</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Date & Venue:</td>
+                            <td>
+                                <p>NAVAL STATION KARANJA</p>
+                                <p>(Every 4th Saturday and Sunday of the month)</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Registration Fees:</td>
+                            <td>1999/- (With FREE Starter Kit Included)</td>
+                        </tr>
+                        <tr>
+                            <td>Register Now!</td>
+                            <td>
+                                <p>1 Batch, 10 seats only</p>
+                                <p>Hurry Up</p>
+                                <p>WhatsApp: <a href="https://wa.me/919869787575">wa.me/919869787575</a></p>
+                                <p>Telegram: <a href="https://t.me/itsmakk">https://t.me/itsmakk</a></p>
+                                <p>Instagram: <a href="https://instagram.com/makhandare">https://instagram.com/makhandare</a></p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </article>
+    <!-- End of Post Content Section -->
+
+    <!-- Footer Section -->
+    <footer class="footer clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6 footer-para">
+                    <p>. 2025 &copy; Milindweb All rights reserved</p>
+                </div>
+                <div class="col-xs-6 text-right">
+                    <a href="https://www.instagram.com/makhandare"><i class="fa fa-instagram"></i>Instagram</a>
+                    <a href=" "><i class="fa fa-youtube"></i>YouTube</a>
+                    <a href="https://t.me/itsmakk"><i class="fa fa-telegram"></i>Telegram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End of Footer Section -->
+
+
+
+    <!-- JavaScript Libraries -->
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
